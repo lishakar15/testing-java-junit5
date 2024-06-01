@@ -35,6 +35,7 @@ public class JavaOperationsTest {
     }
 
     @Test
+    @DisplayName("Fist Method")
     public void methodA()
     {
         javaOperations.add(5,6);
