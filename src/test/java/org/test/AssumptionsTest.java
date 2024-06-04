@@ -21,7 +21,7 @@ public class AssumptionsTest {
     @Test
     public void checkNotNull()
     {
-        Object o = null;
-        Assume.assumeNotNull(o); //This test case pass if the object is not null
+        Object obj = null;
+        Assume.assumeNotNull(obj); //This test case pass if the object is not null
     }
 }
